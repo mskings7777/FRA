@@ -1,0 +1,49 @@
+# POST http://localhost:4000/claims-management
+# Content-Type: application/json
+
+# {
+#     "state": "Odisha",
+#     "Reserved_forests" : 36049,
+#     "National_parks": 2 ,
+#     "Unclassified_forests": 22,
+#     "Protected_forests": 25133
+# }
+
+# POST http://localhost:4000/claims-management
+# Content-Type: application/json
+
+# {
+#     "state": "Odisha",
+#     "ir1" : 701148,
+#     "cr1" : 35024,
+#     "total" : 736172,
+#     "ir2" : 462067,
+#     "cr2" : 8832,
+#     "total" : 470899,
+#     "rejectedCliams": 144636,
+#     "disposedOffCliams": 615535,
+#     "pendingClaims": 120637
+# }
+
+# POST http://localhost:4000/signin
+# Content-Type: application/json
+
+# {
+#     "fullname": "harsh",
+#     "email" : "kashyap@gmail.com",
+#     "password": "Harsh123" 
+# }
+
+POST http://localhost:4000/updateAllUserData
+Content-Type: application/json
+
+{
+    "email": "kashyap@gmail.com",
+    "mobile_no": "9876543210",
+    "dob": "13-03-2003",
+    "role": "Ministry of Tribal Affairs",
+    "state": "Madhya Pradesh",
+    "district": "Rewa",
+    "profile_img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStyR2EuBdDrJIPa8mzAy7VF4tSUGVRBH0DWm4TlR4jLzZFKsiEsRxdTtni6KkWERz_Pc2Z3gNQoNU9JMhwvy1cEszFIzz_R-rRoq6uzWB6"
+}
+
